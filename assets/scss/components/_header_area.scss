@@ -1,4 +1,8 @@
 #header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
   color: #fff;
 
   .place-header {
@@ -6,7 +10,7 @@
     justify-content: space-between;
     align-items: center;
 	  background-color: #03c95a;
-    height: 48px;
+    height: $place-header-height;
 
     .store-name {
       display: flex;
@@ -25,7 +29,7 @@
 
   .place-tab {
     display: flex;
-    height: 46px;
+    height: $place-tab-height;
     background-color: #03b753;
 
     .tab-inner {
@@ -61,7 +65,7 @@
             position: relative;
             display: inline-block;
             padding: 0 4px;
-            line-height: 46px;
+            line-height: $place-tab-height;
         }
       }
     }
